@@ -10,8 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <!-- Bootstrap and libraries -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat" rel="stylesheet">
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet" type="text/css" /> </head>
 
@@ -25,7 +26,7 @@
                 <h1>CFS Side Events Timetable</h1> </div>
             <div class="col-md-12 center-horizontally">
                 <a href="#schedule">
-                    <button class="btn btn-default btn-primary">Full Schedule</button>
+                    <button class="btn btn-default btn-primary"> <i class="fa fa-calendar" aria-hidden="true"></i> Full Schedule</button>
                 </a>
             </div>
         </div>
@@ -35,7 +36,63 @@
             <div class="col-md-12 center-horizontally">
                 <h2 id="schedule">Full schedule</h2> </div>
         </div>
+        <div class="row week">
+            <div class="col-xs-12 center-horizontally">
+                <input id="monday" type="radio" name="tabs" checked>
+                <label for="monday"><span class="longer">Monday</span> <span class="shorter">Mon</span> </label>
+                <input id="tuesday" type="radio" name="tabs">
+                <label for="tuesday"><span class="longer">Tuesday</span><span class="shorter">Tue</span></label>
+                <input id="wednesday" type="radio" name="tabs">
+                <label for="wednesday"><span class="longer">Wednesday</span><span class="shorter">Wed</span></label>
+                <input id="thursday" type="radio" name="tabs">
+                <label for="thursday"><span class="longer">Thursday</span><span class="shorter">Thu</span></label>
+                <input id="friday" type="radio" name="tabs">
+                <label for="friday"><span class="longer">Friday</span><span class="shorter">Fri</span></label>
+                <div class="day" id="monday-content">
+                    <p>Lorem ipsum dolor sit amet, elitr platonem pri cu, sit te decore reformidans, solum nemore luptatum ne est. Albucius phaedrum tractatos ad mel. Vix epicuri invenire et. Impetus detracto persecuti nam no, cu gubergren moderatius mel.
+                        Ius ut graeci habemus. Erat ullamcorper id eum, per ad commodo comprehensam. Vim eu eruditi facilisi persequeris, recusabo voluptaria adipiscing sed te. Scaevola suscipiantur eu pri, cum cu brute ridens, duo audire facilisis in.
+                        Nam facilisis incorrupte id, ei vix scaevola imperdiet abhorreant. Ut mei simul intellegam, pro ei scripta verterem repudiare.</p>
+                </div>
+                <div class="day" id="tuesday-content">
+                    <p>Ample flexione uso un, con in europeo magazines. Su uso lingua proposito, message latente es con. Da parlar vocabulario per, per tu tempore giuseppe language. Su uso russo membros concretisation, del scriber millennios ma, que da etiam
+                        inviar parola. Es vide effortio duo, in nos nostre magazines greco-latin. Malo patre introduction de qui. Integre denomination que al. Web es romanic resultato, pro ultra tamben concretisation il. Uno nostre latente scientific
+                        tu, es web basate association historiettas, sed da super personas. Deler synonymo articulo pro in, uso inviar commun unidirectional ha.</p>
+                </div>
+                <div class="day" id="wednesday-content">
+                    <p>Lorem ipsum dolor sit amet, elitr platonem pri cu, sit te decore reformidans, solum nemore luptatum ne est. Albucius phaedrum tractatos ad mel. Vix epicuri invenire et. Impetus detracto persecuti nam no, cu gubergren moderatius mel.
+                        Ius ut graeci habemus. Erat ullamcorper id eum, per ad commodo comprehensam. Vim eu eruditi facilisi persequeris, recusabo voluptaria adipiscing sed te. Scaevola suscipiantur eu pri, cum cu brute ridens, duo audire facilisis in.
+                        Nam facilisis incorrupte id, ei vix scaevola imperdiet abhorreant. Ut mei simul intellegam, pro ei scripta verterem repudiare</p>
+                </div>
+                <div class="day" id="thursday-content">
+                    <p>Ample flexione uso un, con in europeo magazines. Su uso lingua proposito, message latente es con. Da parlar vocabulario per, per tu tempore giuseppe language. Su uso russo membros concretisation, del scriber millennios ma, que da etiam
+                        inviar parola. Es vide effortio duo, in nos nostre magazines greco-latin. Malo patre introduction de qui. Integre denomination que al. Web es romanic resultato, pro ultra tamben concretisation il. Uno nostre latente scientific
+                        tu, es web basate association historiettas, sed da super personas. Deler synonymo articulo pro in, uso inviar commun unidirectional ha.</p>
+                </div>
+                <div class="day" id="friday-content">
+                    <p>Lorem ipsum dolor sit amet, elitr platonem pri cu, sit te decore reformidans, solum nemore luptatum ne est. Albucius phaedrum tractatos ad mel. Vix epicuri invenire et. Impetus detracto persecuti nam no, cu gubergren moderatius mel.
+                        Ius ut graeci habemus. Erat ullamcorper id eum, per ad commodo comprehensam. Vim eu eruditi facilisi persequeris, recusabo voluptaria adipiscing sed te. Scaevola suscipiantur eu pri, cum cu brute ridens, duo audire facilisis in.
+                        Nam facilisis incorrupte id, ei vix scaevola imperdiet abhorreant. Ut mei simul intellegam, pro ei scripta verterem repudiare</p>
+                </div>
+            </div>
+        </div>
     </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p> CFS </p>
+                    </div>
+                    <div class="col-sm-6">
+                        <p>www.fao.org/cfs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
