@@ -34,5 +34,5 @@ This code creates five centered divs, blue, with internal links for other stuff.
     </a>
 </div>
 ```
-**Tabs snippets**: adapted from [insert link](http://)
+**Tabs snippets**: adapted from [Oliver Knoblich](https://codepen.io/oknoblich/full/tfjFl/)
 **Accordion snippet**: adapted from [Create an accordion](http://www.w3schools.com/howto/howto_js_accordion.asp)
