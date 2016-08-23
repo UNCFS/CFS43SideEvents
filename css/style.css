@@ -127,75 +127,48 @@ input:checked+ label {
 /*ACCORDION*/
 
 .accordion {
-    position: relative;
-    margin: 0 auto;
+    background-color: #fff;
+    color: #555;
+    cursor: pointer;
+    padding: 18px;
     width: 100%;
+    text-align: center;
+    border: none;
+    border-top: 1px solid #1a7aac;
+    outline: none;
+    transition: 0.4s;
 }
-[id*="open-accordion"], [id*="close-accordion"] {
-    border-bottom: 2px solid #1a7aac;
-    border-top: 2px solid #1a7aac;
-    line-height: 40px;
-    height: 40px;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-    width: 99%;
+.accordion.borders {
+    border-bottom: 1px solid #1a7aac;
 }
-[id*="close-accordion"] {
+.accordion:hover {
+    color: #888;
+    cursor: pointer;
+}
+.accordion .active {
+    background: rgba(26, 122, 172, 0.8);
+    color: white;
+    border: none;
+}
+.events {
+    padding: 0 18px;
     display: none;
 }
-.accordion a {
+.events .show {
+    display: block;
+}
+button.accordion:after {
+    font-family: "FontAwesome";
+    content: '\f078';
+    font-size: 13px;
+    float: right;
     color: #1a7aac;
-    font-weight: normal;
-    padding-left: 2%;
-    text-decoration: none;
-    text-shadow: none;
+    margin-left: 5px;
 }
-[id*="open-accordion"]:after, [id*="close-accordion"]:after {
-    content: "";
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid rgba(255, 255, 255, 0.6);
-    position: absolute;
-    right: 5px;
-    top: 15px;
-    z-index: 999;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-}
-.target-fix {
-    display: block;
-    top: 0;
-    left: 0;
-    position: fixed;
-}
-.accordion-content {
-    height: 0;
-    margin: -1px auto 0;
-    padding: 0 2.5%;
-    position: relative;
-    overflow: hidden;
-    width: 90%;
-    transition: all 0.1s ease;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-}
-.accordion span:target~ .accordion-content {
-    display: block;
-    height: auto;
-    padding-bottom: 25px;
-    padding-top: 10px;
-}
-.accordion span:target~ [id*="close-accordion"] {
-    display: block;
-}
-.accordion span:target~ [id*="open-accordion"] {
-    display: none;
-}
-.accordion span:target~ [id*="close-accordion"]:after {
-    border-top: 10px solid #FFFFFF;
-    transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
+button.accordion.active:after {
+    font-family: "FontAwesome";
+    content: '\f077';
+    /* Unicode character for "minus" sign (-) */
 }
 
 /*FOOTER STYLING*/

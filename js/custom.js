@@ -14,3 +14,16 @@ $(document).ready(function(){
 	    });
 	});
 });
+
+// Toggle accordion animation by adding and removing classes
+// from: http://www.w3schools.com/howto/howto_js_accordion.asp
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+    }
+}
