@@ -1,3 +1,15 @@
+/**
+TABLE OF CONTENTS
+ * CH01 - Resets
+ * CH02 - Typography
+ * CH03 - Page Structure
+ * CH04 - Header & Navigation
+ * CH05 - Content & Media
+ * CH06 - Footer
+ * CH07 - Miscellaneous
+**/
+
+
 /*GENERAL STYLING - APPLICABLE THROUGHTOUT THE APPLICATION*/
 
 html, body {
@@ -117,7 +129,7 @@ input:checked+ label {
 footer {
     background: #555;
     width: 100%;
-    height: 15%;
+    height: auto;
 }
 footer p {
     color: white;
@@ -126,11 +138,8 @@ footer p {
     font-size: 80%;
 }
 
-}
-
-}
-
 /*Media Queries*/
+
 @media screen and (max-width: 650px) {
     .main h1 {
         font-size: 6vw;
@@ -148,6 +157,10 @@ footer p {
     .main h1 {
         padding-top: 25%;
         font-size: 6vw;
+    }
+    label {
+        font-size: 70%;
+        padding: 10px;
     }
     span.longer {
         display: none;
