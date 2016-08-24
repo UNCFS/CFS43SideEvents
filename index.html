@@ -14,115 +14,148 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat" rel="stylesheet">
     <!-- Style -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" /> </head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="css/media.css" rel="stylesheet" type="text/css" /> </head> -->
 
-<body>
-    <section class="container-fluid main">
-        <div class="row">
-            <div class="col-md-4"> <img class="img-responsive logo" src="http://www.fao.org/fileadmin/templates/cfs/images/cfslogo_en_100.jpg" alt="CFS Logo"> </div>
-        </div>
-        <div class="row center">
-            <div class="col-md-12 text-center">
-                <h1>CFS Side Events Timetable</h1> </div>
-            <div class="col-md-12 center-horizontally">
-                <a href="#schedule">
-                    <button class="btn btn-default btn-primary"> <i class="fa fa-calendar" aria-hidden="true"></i> Full Schedule</button>
-                </a>
+    <body>
+        <section class="container-fluid main">
+            <div class="row">
+                <div class="col-md-4"> <img class="logo img-responsive" src="images/logo.png" alt="CFS Logo"> </div>
             </div>
-        </div>
-    </section>
-    <section class="container timetable">
-        <div class="row">
-            <div class="col-md-12 center-horizontally">
-                <h2 id="schedule">Timetable</h2> </div>
-        </div>
-        <div class="row week">
-            <div class="col-xs-12 center-horizontally">
-                <input id="monday" type="radio" name="tabs" checked>
-                <label for="monday"><span class="longer">Monday</span> <span class="shorter">Mon</span> </label>
-                <input id="tuesday" type="radio" name="tabs">
-                <label for="tuesday"><span class="longer">Tuesday</span><span class="shorter">Tue</span></label>
-                <input id="wednesday" type="radio" name="tabs">
-                <label for="wednesday"><span class="longer">Wednesday</span><span class="shorter">Wed</span></label>
-                <input id="thursday" type="radio" name="tabs">
-                <label for="thursday"><span class="longer">Thursday</span><span class="shorter">Thu</span></label>
-                <input id="friday" type="radio" name="tabs">
-                <label for="friday"><span class="longer">Friday</span><span class="shorter">Fri</span></label>
-                <div class="day" id="monday-content">
-                    <!-- ACCORDION TESZT -->
-                    <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <p>
-                            Ample flexione uso un, con in europeo magazines
-                        </p>
-                    </div>
-
-
-
-                </div>
-                <div class="day" id="tuesday-content">
-                    <button class="accordion">Morning 08.30 - 09.30</button>
-                    <div class="events">
-                        <p>
-                            Ample flexione uso un, con in europeo magazines
-                        </p>
-                    </div>
-                    <button class="accordion">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <p>
-                            Ample flexione uso un, con in europeo magazines
-                        </p>
-                    </div>
-                    <button class="accordion borders">Evening 17.30 - 19.00</button>
-                    <div class="events">
-                        <p>
-                            Ample flexione uso un, con in europeo magazines
-                        </p>
-                    </div>
-                </div>
-                <div class="day" id="wednesday-content">
-                    <p>Lorem ipsum dolor sit amet, elitr platonem pri cu, sit te decore reformidans, solum nemore luptatum ne est. Albucius phaedrum tractatos ad mel. Vix epicuri invenire et. Impetus detracto persecuti nam no, cu gubergren moderatius mel.
-                        Ius ut graeci habemus. Erat ullamcorper id eum, per ad commodo comprehensam. Vim eu eruditi facilisi persequeris, recusabo voluptaria adipiscing sed te. Scaevola suscipiantur eu pri, cum cu brute ridens, duo audire facilisis in.
-                        Nam facilisis incorrupte id, ei vix scaevola imperdiet abhorreant. Ut mei simul intellegam, pro ei scripta verterem repudiare</p>
-                </div>
-                <div class="day" id="thursday-content">
-                    <p>Ample flexione uso un, con in europeo magazines. Su uso lingua proposito, message latente es con. Da parlar vocabulario per, per tu tempore giuseppe language. Su uso russo membros concretisation, del scriber millennios ma, que da etiam
-                        inviar parola. Es vide effortio duo, in nos nostre magazines greco-latin. Malo patre introduction de qui. Integre denomination que al. Web es romanic resultato, pro ultra tamben concretisation il. Uno nostre latente scientific
-                        tu, es web basate association historiettas, sed da super personas. Deler synonymo articulo pro in, uso inviar commun unidirectional ha.</p>
-                </div>
-                <div class="day" id="friday-content">
-                    <p>Lorem ipsum dolor sit amet, elitr platonem pri cu, sit te decore reformidans, solum nemore luptatum ne est. Albucius phaedrum tractatos ad mel. Vix epicuri invenire et. Impetus detracto persecuti nam no, cu gubergren moderatius mel.
-                        Ius ut graeci habemus. Erat ullamcorper id eum, per ad commodo comprehensam. Vim eu eruditi facilisi persequeris, recusabo voluptaria adipiscing sed te. Scaevola suscipiantur eu pri, cum cu brute ridens, duo audire facilisis in.
-                        Nam facilisis incorrupte id, ei vix scaevola imperdiet abhorreant. Ut mei simul intellegam, pro ei scripta verterem repudiare</p>
+            <div class="row center">
+                <div class="col-md-12 text-center">
+                    <h1>CFS Side Events Timetable</h1> </div>
+                <div class="col-md-12 center-horizontally">
+                    <a href="#schedule">
+                        <button class="btn btn-default btn-primary"> <i class="fa fa-calendar" aria-hidden="true"></i> Timetable</button>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid">
-        <div class="row center-horizontally">
-            <div class="col-xs-12">
-                <h2>Full schedule</h2>
-                <button class="btn btn-default">Download</button>
+        </section>
+        <section class="container timetable">
+            <div class="row">
+                <div class="col-md-12 center-horizontally">
+                    <h2 id="schedule">Timetable</h2> </div>
             </div>
-        </div>
-    </section>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p> CFS </p>
+            <div class="row week">
+                <div class="col-xs-12 center-horizontally">
+                    <input id="monday" type="radio" name="tabs" checked>
+                    <label for="monday"><span class="longer">Monday</span> <span class="shorter">Mon</span> </label>
+                    <input id="tuesday" type="radio" name="tabs">
+                    <label for="tuesday"><span class="longer">Tuesday</span><span class="shorter">Tue</span></label>
+                    <input id="wednesday" type="radio" name="tabs">
+                    <label for="wednesday"><span class="longer">Wednesday</span><span class="shorter">Wed</span></label>
+                    <input id="thursday" type="radio" name="tabs">
+                    <label for="thursday"><span class="longer">Thursday</span><span class="shorter">Thu</span></label>
+                    <input id="friday" type="radio" name="tabs">
+                    <label for="friday"><span class="longer">Friday</span><span class="shorter">Fri</span></label>
+                    <div class="day" id="monday-content">
+                        <!-- ACCORDION TESZT -->
+                        <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3> Title</h3>
+                                <h4 class="subtitle"> Lorem Ipsum </h4>
+                                <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p> <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <p>www.fao.org/cfs</p>
+                    <div class="day" id="tuesday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion borders">Evening 17.30 - 19.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                    </div>
+                    <div class="day" id="wednesday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion borders">Evening 17.30 - 19.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                    </div>
+                    <div class="day" id="thursday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion borders">Evening 17.30 - 19.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                    </div>
+                    <div class="day" id="friday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
+                        <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <p> Ample flexione uso un, con in europeo magazines </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/custom.js"></script>
-</body>
+        </section>
+        <section class="container-fluid">
+            <div class="row center-horizontally">
+                <div class="col-xs-12">
+                    <h2>Downloads</h2> </div>
+                <div class="row center-horizontally">
+                    <div class="col-md-12">
+                        <button class="btn btn-default">Timetable</button>
+                        <button class="btn btn-default">Side Event Guide</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <p> Committee on World Food Security
+                                <br /> Food and Agriculture Organization of the United Nations
+                                <br /> Viale delle Terme di Caracalla
+                                <br /> 00153, Rome Italy
+                                <br /> <a href="mailto: cfs@fao.org">cfs@fao.org</a>
+                                <br/> <a href="http://www.fao.org/cfs">CFS Website</a> </p>
+                        </div>
+                        <div class="col-xs-6">
+                            <p> Follow us on: </p> <a href="https://www.facebook.com/UN.CFS"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a> <a href="https://twitter.com/UN_CFS"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>                            <a href="https://medium.com/@UN_CFS"><i class="fa fa-medium fa-2x" aria-hidden="true"></i></a> <i class="fa fa-youtube fa-2x" aria-hidden="true"></i> </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- jQuery file -->
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+        <!-- Boostrap js -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!-- Custom scripts -->
+        <script src="js/custom.js"></script>
+    </body>
 
 </html>

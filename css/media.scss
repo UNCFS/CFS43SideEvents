@@ -1,0 +1,50 @@
+/*Media Queries*/
+
+@media screen and (max-width: 700px) {
+    .main h1 {
+        font-size: 200% margin-top: 20px;
+    }
+    label {
+        font-size: 80%;
+        padding: 12px;
+    }
+    /*.logo {
+        max-width: 40%;
+    }*/
+}
+@media screen and (max-width: 450px) {
+    /*.logo {
+        margin-bottom: 20px;
+        max-width: 40%;
+    }*/
+    .main h1 {
+        padding-top: 25%;
+        font-size: 200%;
+    }
+    label {
+        font-size: 70%;
+        padding: 10px;
+    }
+    span.longer {
+        display: none;
+    }
+    span.shorter {
+        display: inline;
+    }
+}
+@media screen and (max-height: 700px) {
+    /*.logo {
+        max-height: 120px;
+    }*/
+    .main h1 {
+        font-size: 9vh;
+    }
+}
+@media screen and (max-height: 500px) {
+    /*.logo {
+        max-height: 80px;
+    }*/
+    .main h1 {
+        font-size: 9vh;
+    }
+}
