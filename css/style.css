@@ -25,10 +25,6 @@ section {
     height: 100%;
     width: 100%;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-}
 .center {
     position: absolute;
     top: 50%;
@@ -39,32 +35,9 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 auto;
     text-align: center;
 }
-
-/* HOME PAGE*/
-
-.logo {
-    padding: 10px;
-    display: inline-block;
-}
-.main {
-    background: #f6f6f6;
-    /*background-attachment: scroll;
-background-image: url("../images/prova2.png");
-background-position: center center;
-background-repeat: none;
--webkit-background-size: cover;
--moz-background-size: cover;
-background-size: cover;
--o-background-size: cover;*/
-}
-.main>.row {
-    width: 100%;
-}
-.main h1 {
-    color: #1a7aac;
-    font-size: 500%;
-    /*font-size: 5vw;*/
-    /*color: white;*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 .btn-default {
     background: none;
@@ -79,8 +52,35 @@ background-size: cover;
     color: white;
     border: none;
 }
-.fa-calendar {
+.fa {
+    padding: 10px 20px 10px 0px;
+}
+
+/* HOME PAGE*/
+
+.logo {
     padding: 10px;
+    display: inline-block;
+}
+.main {
+    /*background: #f6f6f6;*/
+    background-attachment: scroll;
+    background-image: url("../images/home.png");
+    /*background-position: center center;*/
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.main>.row {
+    width: 100%;
+}
+.main h1 {
+    color: #1a7aac;
+    font-size: 500%;
+    /*font-size: 5vw;*/
+    /*color: white;*/
 }
 
 /*TIMETABLE*/
@@ -145,9 +145,6 @@ input:checked+ label {
 }
 .logistics p {
     font-size: 95%;
-}
-.fa.fa-glass {
-    padding: 0 50px 0 0;
 }
 
 /*ACCORDION*/
