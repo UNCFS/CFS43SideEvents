@@ -24,6 +24,7 @@ html, body {
 section {
     height: 100%;
     width: 100%;
+    ;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -114,9 +115,6 @@ label {
 span.shorter {
     display: none;
 }
-
-/*TODO Change styling*/
-
 label:hover {
     color: #888;
     cursor: pointer;
@@ -195,6 +193,13 @@ button.accordion.active:after {
     font-family: "FontAwesome";
     content: '\f077';
     /* Unicode character for "minus" sign (-) */
+}
+
+/*Downloads*/
+
+.downloads {
+    height: auto;
+    padding: 50px 0 50px 0;
 }
 
 /*FOOTER STYLING*/
