@@ -203,7 +203,7 @@ h3 {
 }
 /*ACCORDION*/
 .accordion {
-    background-color: #fff;
+    background: none;
     color: #555;
     cursor: pointer;
     padding: 18px;
