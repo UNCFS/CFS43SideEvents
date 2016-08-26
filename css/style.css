@@ -86,7 +86,7 @@ p {
 .btn-default {
     background: none;
     border: 2px solid #1a7aac;
-    padding: 10px 0px;
+    padding: 10px 0;
     width: 250px;
     margin: 30px;
     font-family: 'Lato', sans-serif;
@@ -100,7 +100,6 @@ p {
     color: white;
     border: none;
 }
-
 /* HOME PAGE*/
 .img-responsive.logo {
     height: 80%;
@@ -335,69 +334,108 @@ footer a:hover {
     .main h1 {
         padding-top: 100px;
     }
+
+    span.only-big {
+        display: none;
+    }
 }
 @media screen and (max-width: 320px) {
     logo {
         width: 100px;
     }
+
     span.longer {
         display: none;
     }
+
     span.shorter {
         display: inline;
     }
-    label{
-      font-size: 14px;
-      padding: 10px;
-      margin: 0;
+
+    label {
+        font-size: 14px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    span.only-big {
+        display: none;
     }
 }
 @media screen and (max-width: 450px) {
     img.logo {
         width: 130px;
     }
+
     span.longer {
         display: none;
     }
+
     span.shorter {
         display: inline;
     }
-    label{
-      padding: 10px 20px;
-      font-size: 16px;
-      margin: 0;
+
+    label {
+        padding: 10px 20px;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    span.only-big {
+        display: none;
     }
 }
 @media screen and (max-width: 540px) {
-  .logo{
-    width: 160px;
-  }
-  span.longer {
-      display: none;
-  }
-  span.shorter {
-      display: inline;
-  }
-  label{
-    font-size: 15px;
-    padding: 10px;
-    margin: 0;
-  }
+    .logo {
+        width: 160px;
+    }
+
+    span.longer {
+        display: none;
+    }
+
+    span.shorter {
+        display: inline;
+    }
+
+    label {
+        font-size: 15px;
+        padding: 10px;
+        margin: 0;
+    }
+
+    span.only-big {
+        display: none;
+    }
 }
 @media screen and (max-width: 639px) {
-  .logo{
-    width: 180px;
-  }
-  span.longer {
-      display: none;
-  }
-  span.shorter {
-      display: inline;
-  }
+    .logo {
+        width: 180px;
+    }
+
+    span.longer {
+        display: none;
+    }
+
+    span.shorter {
+        display: inline;
+    }
+
+    span.only-big {
+        display: none;
+    }
 }
-@media screen and (max-width: 720px) {
-  .logo{
-    width: 180px;
-  }
+@media screen and (min-width: 720px) {
+    .logo {
+        width: 180px;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
 }
-@media screen and (max-width: 960px) {}
+@media screen and (min-width: 960px) {
+    h1 {
+        font-size: 4.5vw;
+    }
+}
