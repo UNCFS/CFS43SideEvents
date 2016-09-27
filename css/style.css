@@ -128,7 +128,7 @@ p {
 }
 /*TIMETABLE*/
 /*Tabs adapted from [Oliver Knoblich](https://codepen.io/oknoblich/full/tfjFl/)*/
-#schedule {
+#side-events {
     padding: 30px 0 20px;
 }
 
@@ -181,8 +181,8 @@ input:checked+ label {
 #wednesday:checked~ #wednesday-content {
     display: block;
 }
-/*
-#friday43:checked~ #friday-content43,
+
+/*#friday43:checked~ #friday-content43,
 #monday43:checked~ #monday-content43,
 #thursday43:checked~ #thursday-content43,
 #tuesday43:checked~ #tuesday-content43,
