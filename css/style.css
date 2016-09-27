@@ -182,13 +182,14 @@ input:checked+ label {
     display: block;
 }
 
-/*#friday43:checked~ #friday-content43,
-#monday43:checked~ #monday-content43,
-#thursday43:checked~ #thursday-content43,
-#tuesday43:checked~ #tuesday-content43,
-#wednesday43:checked~ #wednesday-content43 {
+#five:checked~ #five-content,
+#one:checked~ #one-content,
+#four:checked~ #tfour-content,
+#two:checked~ #two-content,
+#three:checked~ #three-content {
     display: block;
-}*/
+}
+
 
 h3 {
     line-height: 0.7;
