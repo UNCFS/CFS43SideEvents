@@ -184,7 +184,7 @@ input:checked+ label {
 
 #five:checked~ #five-content,
 #one:checked~ #one-content,
-#four:checked~ #tfour-content,
+#four:checked~ #four-content,
 #two:checked~ #two-content,
 #three:checked~ #three-content {
     display: block;
