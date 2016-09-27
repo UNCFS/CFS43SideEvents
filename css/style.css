@@ -135,7 +135,7 @@ p {
 .week {
     margin: 0 auto;
 }
-
+/*If problem with visualization, change here*/
 .day {
     display: none;
     padding: 20px 0 0;
@@ -172,6 +172,8 @@ input:checked+ label {
     border-bottom: 1px solid #fff;
 }
 
+/*TEST!!! */
+
 #friday:checked~ #friday-content,
 #monday:checked~ #monday-content,
 #thursday:checked~ #thursday-content,
@@ -179,9 +181,15 @@ input:checked+ label {
 #wednesday:checked~ #wednesday-content {
     display: block;
 }
-/*.logistics {
-text-align: left;
+/*
+#friday43:checked~ #friday-content43,
+#monday43:checked~ #monday-content43,
+#thursday43:checked~ #thursday-content43,
+#tuesday43:checked~ #tuesday-content43,
+#wednesday43:checked~ #wednesday-content43 {
+    display: block;
 }*/
+
 h3 {
     line-height: 0.7;
 }
