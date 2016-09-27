@@ -1,723 +1,1129 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title> CFS43 Side Events Timetable</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="CFS43 Side Events information">
-    <meta name="keywords" content="United Nations, food security, nutrition, Committee, events">
-    <meta name="author" content="Alessandra Gherardelli">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- Bootstrap and libraries -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/boostrap-theme.min.css" rel="stylesheet" ? />
-    <!-- Font awesome icons -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat" rel="stylesheet">
-    <!-- Custom style -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <!-- <link href="css/media.css" rel="stylesheet" type="text/css" /> -->
-</head>
+    <head>
+        <title>
+            CFS43 Side Events Timetable</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="CFS43 Side Events information">
+        <meta name="keywords" content="United Nations, food security, nutrition, Committee, events">
+        <meta name="author" content="Alessandra Gherardelli">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <!-- Bootstrap and libraries -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="css/boostrap-theme.min.css" rel="stylesheet" ?/>
+        <!-- Font awesome icons -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat" rel="stylesheet">
+        <!-- Custom style -->
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- <link href="css/media.css" rel="stylesheet" type="text/css" /> -->
+    </head>
 
-<body>
-    <section class="container-fluid main">
-        <div class="row">
-            <div class="col-md-4"> <img class="logo img-responsive" src="images/logo.png" alt="CFS Logo"> </div>
-        </div>
-        <div class="row center heading center-horizontally">
-            <div class="col-md-12 text-center">
-                <h1>CFS43 Side Events <span class="only-big"><br/></span> Timetable</h1> </div>
-            <div class="col-md-12">
-                <a href="#schedule">
-                    <button class="btn btn-default btn-primary">
-                        <i class="fa fa-calendar" aria-hidden="true"></i> Timetable</button>
-                </a>
-            </div>
-        </div>
-    </section>
-    <section class="container timetable">
-        <div class="row">
-            <div class="col-md-12 center-horizontally">
-                <h2 id="schedule">Timetable</h2> </div>
-        </div>
-        <div class="row week">
-            <div class="col-xs-12 center-horizontally">
-                <input id="monday" type="radio" name="tabs" checked>
-                <label for="monday"><span class="longer">Monday</span> <span class="shorter">Mon</span> </label>
-                <input id="tuesday" type="radio" name="tabs">
-                <label for="tuesday"><span class="longer">Tuesday</span><span class="shorter">Tue</span></label>
-                <input id="wednesday" type="radio" name="tabs">
-                <label for="wednesday"><span class="longer">Wednesday</span><span class="shorter">Wed</span></label>
-                <input id="thursday" type="radio" name="tabs">
-                <label for="thursday"><span class="longer">Thursday</span><span class="shorter">Thu</span></label>
-                <input id="friday" type="radio" name="tabs">
-                <label for="friday"><span class="longer">Friday</span><span class="shorter">Fri</span></label>
-                <div class="day" id="monday-content">
-                    <!-- ACCORDION TESZT -->
-                    <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="day" id="tuesday-content">
-                    <button class="accordion">Morning 08.30 - 09.30</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion borders">Evening 17.30 - 19.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="day" id="wednesday-content">
-                    <button class="accordion">Morning 08.30 - 09.30</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion borders">Evening 17.30 - 19.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="day" id="thursday-content">
-                    <button class="accordion">Morning 08.30 - 09.30</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion borders">Evening 17.30 - 19.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="day" id="friday-content">
-                    <button class="accordion">Morning 08.30 - 09.30</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
-                    <div class="events">
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                        <div class="logistics">
-                            <h3> Title</h3>
-                            <h4 class="subtitle"> Lorem Ipsum </h4>
-                            <p class="organizers"> Organizer1; Organizer2; Organizer3</p>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p>
-                                        <i class="fa fa-glass" aria-hidden="true "></i> Room </p>
-                                    <hr /> </div>
-                            </div>
-                        </div>
-                    </div>
+    <body>
+        <section class="container-fluid main">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="logo img-responsive" src="images/logo.png" alt="CFS Logo">
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="container-fluid downloads">
-        <div class="row center-horizontally">
-            <div class="col-xs-12">
-                <h2>Downloads</h2> </div>
-            <div class="row center-horizontally">
+            <div class="row center heading center-horizontally">
+                <div class="col-md-12 text-center">
+                    <h1>CFS43
+                        <span class="only-big"><br/></span>
+                        Timetable</h1>
+                </div>
                 <div class="col-md-12">
-                    <button class="btn btn-default">
-                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>Timetable</button>
-                    <button class="btn btn-default">
-                        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>Side Event Guide</button>
+                    <a href="#plenary">
+                        <button class="btn btn-default btn-primary">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            Plenary</button>
+                    </a>
+                    <a href="#side-events">
+                        <button class="btn btn-default btn-primary">
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            Side Events</button>
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
-    <footer class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <p> <span class="bold"> Committee on World Food Security</span>
-                            <br /> Food and Agriculture Organization of the United Nations
-                            <br /> Viale delle Terme di Caracalla
-                            <br /> 00153, Rome Italy
-                            <br />
-                            <a href="mailto: cfs@fao.org">cfs@fao.org</a>
-                            <br/>
-                            <a href="http://www.fao.org/cfs">CFS Website</a>
-                        </p>
+        </section>
+        <section class="container timetable">
+            <div class="row">
+                <div class="col-md-12 center-horizontally">
+                    <h2 id="side-events">Side Event Schedule</h2>
+                </div>
+            </div>
+            <div class="row week">
+                <div class="col-xs-12 center-horizontally">
+                    <input id="monday" type="radio" name="tabs" checked>
+                    <label for="monday">
+                        <span class="longer">Monday</span>
+                        <span class="shorter">Mon</span>
+                    </label>
+                    <input id="tuesday" type="radio" name="tabs">
+                    <label for="tuesday">
+                        <span class="longer">Tuesday</span>
+                        <span class="shorter">Tue</span>
+                    </label>
+                    <input id="wednesday" type="radio" name="tabs">
+                    <label for="wednesday">
+                        <span class="longer">Wednesday</span>
+                        <span class="shorter">Wed</span>
+                    </label>
+                    <input id="thursday" type="radio" name="tabs">
+                    <label for="thursday">
+                        <span class="longer">Thursday</span>
+                        <span class="shorter">Thu</span>
+                    </label>
+                    <input id="friday" type="radio" name="tabs">
+                    <label for="friday">
+                        <span class="longer">Friday</span>
+                        <span class="shorter">Fri</span>
+                    </label>
+                    <div class="day" id="monday-content">
+                        <!-- ACCORDION TESZT -->
+                        <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-6 text-center">
-                        <p><span class="bold">Follow us on:</span>
-                            <br/>
+                    <div class="day" id="tuesday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion borders">Evening 17.30 - 19.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day" id="wednesday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion borders">Evening 17.30 - 19.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day" id="thursday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion borders">Evening 17.30 - 19.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="day" id="friday-content">
+                        <button class="accordion">Morning 08.30 - 09.30</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="accordion borders">Lunchtime 12.30 - 14.00</button>
+                        <div class="events">
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="logistics">
+                                <h3>
+                                    Title</h3>
+                                <h4 class="subtitle">
+                                    Lorem Ipsum
+                                </h4>
+                                <p class="organizers">
+                                    Organizer1; Organizer2; Organizer3</p>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <p>
+                                            <i class="fa fa-glass" aria-hidden="true "></i>
+                                            Room
+                                        </p>
+                                        <hr/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid downloads">
+            <div class="row center-horizontally">
+                <div class="col-xs-12">
+                    <h2>Downloads</h2>
+                </div>
+                <div class="row center-horizontally">
+                    <div class="col-md-12">
+                        <button class="btn btn-default">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>Timetable</button>
+                        <button class="btn btn-default">
+                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>Side Event Guide</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <p>
+                                <span class="bold">
+                                    Committee on World Food Security</span>
+                                <br/>
+                                Food and Agriculture Organization of the United Nations
+                                <br/>
+                                Viale delle Terme di Caracalla
+                                <br/>
+                                00153, Rome Italy
+                                <br/>
+                                <a href="mailto: cfs@fao.org">cfs@fao.org</a>
+                                <br/>
+                                <a href="http://www.fao.org/cfs">CFS Website</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 text-center">
+                            <p>
+                                <span class="bold">Follow us on:</span>
+                                <br/>
                             </br/>
                             <a href="https://www.facebook.com/UN.CFS">
                                 <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
@@ -730,7 +1136,7 @@
                             </a>
                             <a href="https://www.youtube.com/playlist?list=PLzp5NgJ2-dK4zMq5oTSkIRvkQltV-AD43">
                                 <i class="fa fa-youtube fa-2x" aria-hidden="true"></i>
-                        </p>
+                            </p>
                         </a>
                     </div>
                 </div>
