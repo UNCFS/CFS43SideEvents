@@ -23,8 +23,8 @@ html {
 }
 
 section {
-    height: 100vh;
-    min-height: 400px;
+    /*height: 100vh;*/
+    min-height: 100%;
 }
 /** CH02 - Typography*/
 /* TYPOGRAPHY */
@@ -115,7 +115,7 @@ p {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 320px;
+    min-height: 100%;
 }
 
 .main h1 {
@@ -258,6 +258,7 @@ button.accordion.active:after {
 /*DOWNLOADS*/
 .downloads {
     height: auto;
+    min-height: 300px;
     padding: 50px 0 5em;
     background-attachment: scroll;
     background-image: url("../images/downloads.jpg");
@@ -414,6 +415,7 @@ footer a:hover {
     .organizers{
       line-height: 1;
     }
+
 }
 @media screen and (max-width: 639px) {
     .logo {
