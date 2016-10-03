@@ -67,6 +67,10 @@ p {
     font-size: 1.125rem;
     line-height: 1.8;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 /** CH03 - Reusable Styling (e.g. buttons)*/
 .center {
     position: absolute;
@@ -291,11 +295,6 @@ footer i {
     padding-left: 2%;
 }
 
-footer a {
-    text-decoration: none;
-    color: white;
-}
-
 footer a:hover {
     /*color: orange;*/
     color: #24b57a;
@@ -310,11 +309,6 @@ footer a:hover {
 
 footer i {
     padding-left: 2%;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
 }
 
 footer a:hover {
